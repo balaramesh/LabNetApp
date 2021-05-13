@@ -48,10 +48,10 @@ Here are the 2 backends & their corresponding driver, both using the secret stor
 $ kubectl create -n trident -f secret_ontap_nfs-svm_username.yaml
 secret/ontap-nfs-svm-secret-username created
 
-$ kubectl create -n trident -f backend-nas-default.yaml
+$ kubectl create -n trident -f backend_nas-default.yaml
 tridentbackendconfig.trident.netapp.io/backend-tbc-ontap-nas-default created
 
-$ kubectl create -n trident -f backend-nas-eco-default.yaml
+$ kubectl create -n trident -f backend_nas-eco-default.yaml
 tridentbackendconfig.trident.netapp.io/backend-tbc-ontap-nas-eco-default created
 
 $ kubectl get tbc -n trident
